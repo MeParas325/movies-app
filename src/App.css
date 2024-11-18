@@ -1,0 +1,72 @@
+/* header css */
+.header {
+  background-color: blue;
+  width: 100%;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+/* movies-card css */
+.moviesCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.movieCard {
+  background-color: rgb(79, 72, 72);
+  padding: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 12rem;
+  height: 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieCard h4 {
+  text-align: center;
+}
+
+.mov-image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imdb-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: white;
+}
+
+.imdb-box span:nth-child(2) a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.imdb-box span:hover:nth-child(2) a {
+  text-decoration: underline;
+}
+
+/* shimmer-card css */
+.shimmersCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.shimmerCard {
+  background-color: rgb(79, 72, 72);
+  border-radius: 10px;
+  width: 12rem;
+  height: 23rem;
+}
